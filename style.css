@@ -6,14 +6,23 @@
 body{
     background-color: #e1e1e1;
 }
+header{
+position: sticky;
+top: 20px;
+width: 100%;
+  
+}
+
+
 .navbar {
-    height: 60px;
-    background-color: #0f1111;
-    color: white;
-    display: flex;
-    align-items: center;
-     justify-content: space-between; 
-    padding: 0 15px;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+
+  padding: 0 15px;
 }
 .nav-logo {
     height: 50px;
@@ -210,28 +219,20 @@ body{
     
 }
 .box {
-    
-    height: 370px;
-    width: 24%;
-    background-color: rgb(255, 255, 255);
-    padding: 30px 0px 25px;
+height: 370px;
+ width: 24%;
+ background-color: rgb(255, 255, 255);
+ padding: 30px 0px 25px;
    
 
 }
-
-
-
-  .allign, .allign2 {
+ .allign, .allign2 {
   display: grid;
   grid-template-columns: 150px 150px;
   grid-template-rows: 150px;
   column-gap: 40px;
   
 }
-
-
-
-
 .box-img1 {
     height: 300px;
     width: 100%;
@@ -243,6 +244,7 @@ body{
     margin-left: 13px;
     
     
+
 }
 .box-content {
     margin-inline: 10px;
@@ -257,6 +259,8 @@ body{
 .box-content2 img{
     height: 110px;
     width: 150px;
+
+
 
     
 }
